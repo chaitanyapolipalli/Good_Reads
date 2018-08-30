@@ -1,1 +1,54 @@
 
+Imp Questions:
+--------------
+
+Why use orc file format and its advantages?
+How to troubleshoot issues like "if the query result is not returned after specific time how do u start ur debugging process" or "one query is running everyday and it failed running one day what might be the issue"
+After you subscribe to kafka topic how do u process received messages. (how to read msgs from kafka topic)
+what is the purpose of fsck command? http://fibrevillage.com/storage/658-how-to-use-hdfs-fsck-command-to-identify-corrupted-files
+Why use hive context when sqlContext is available?
+Current hive version?
+how to do perform transformation on a table column?
+What are collection data types in hive?
+Diff b/w managed and external table
+Diff b/w hive and hbase
+does hive support update and delete?
+Why to use beeline when connecting to hive?
+Does hive have primary key?
+How to load json file into hive?
+steps to improve performance of a hive query?
+What is partition, bucketing in hive?
+Command to enable to use strings in split-by in sqoop
+What is the efficient way to read huge file using spark?
+how do u handle spark memory issues?
+Cluster size?
+How do u perform concatenation in hive?
+In what scenarios we cannot run hive in sqlContext of spark?
+RDD vs DF vs DS
+How to handle corrupt data when loading data into dataframes?
+How do u handle if hive table is growing day by day?
+Windowing functions in hive?
+How do u handle incremental loads in hive?
+How to read compressed file in hive terminal?
+what are windowing functions? https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html
+What are important spark configuration parameters?
+diff b/w scala collection and rdd? Answer: https://www.youtube.com/watch?v=5H8uKqhK_Co&t=209s&list=PLf0swTFhTI8rDQXfH8afWtGgpOTnhebDx&index=63
+How do u perform sqoop incremental import?
+how do you perform --split-by in sqoop when column is string?  https://community.hortonworks.com/questions/26961/sqoop-split-by-on-a-string-varchar-column.html
+What is ur approach to debug any error?
+How can u make sqoop import faster? hint -> using --direct
+How to capture --last-value in sqoop? hint -> one way is to use sqoop job
+Diff b/w --incremental append and --append in sqoop
+how to determine no of mappers to use in sqoop programatically? 
+Java Interview Questions
+How to programatically define driver memory and no of cores in spark - Answer : http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/ and
+http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/
+
+How to handle complex json files using spark?
+How to handle xml data?
+
+How do u handle nulls from RDBMS?
+Nulls are propertiery to databases, when copying data from rdbms to hdfs (a file system) we cant leave nulls as is, we need to handle them gracefully by using sqoop commands (when question is about sqoop way of handling nulls) to replace nulls by blank values or some characters. 
+
+
+
