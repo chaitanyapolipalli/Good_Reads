@@ -1,0 +1,344 @@
+Company: Fedility        Date: 07-Aug-2018
+1. What security authenication you are using. how you are managing?
+2. about Centry, sercurity authentication ?
+3. how do you do schedue the jobs in Fair scheduler
+4. priortizing jobs
+5. how you are doing Accenterl control for HDFS?
+6. Disaster Recovery activites
+7. what issues you are faced so far
+8. do you know about puppet
+9. hadoop devlopement activites
+
+
+
+
+
+
+
+Company: Accenture        Dt: 06-July-2018
+1) What are your daily activities? And What are your roles and responsibilities in your current project? What are the services that are implemented in your current project?
+2) What have you done for performance tunning
+3) What is the block size in your project?
+4) Explain your current project process
+5) Have you used Storm Kafka or Solr services in your project?
+6) Have you used puppet tool
+7) Have you used security in your project? Why do you use security in your cluster?
+8) Explain how kerberos authentication happens?
+9) What is your cluster size and what r the services you are using?
+10) Do you have good hands on experience in Linux
+11) Have you used Flume or Storm in your Project?
+
+
+
+
+
+Company: ZNA       04-July-2018
+1)Roles and responsibilities in current project
+2)What do you monitor in cluster i.e; What do you monitor to ensure that cluster is in healthy state?
+3)Are you involved in planning and implementation of Hadoop cluster. What are the components that need to keep in mind while planning hadoop Cluster.
+4)You are given 10 Empty boxes with 256GB RAM and good Hardware conditions, How will you plan your cluster with these 10 boxes when there is 100GB of data to come per day.( Steps right from Begining i.e; chosing OS, chossing Softwares to be installed on empty boxes, Installation steps to install RedHat Linux)
+5) Steps to install Cloudera Hadoop.
+6) What is JVM?
+7) What is Rack awareness?? 
+8) What is Kerberos security and how will you install and enable it using CLI and how to integrate it with Cloudera manager.
+9) What is High Availability? How do you implement High availability on a pre existing cluster with single node? What are the requirements to implement HA.
+10) What is HIVE? How do you install and configure from CLI.
+11) What is Disc Space and Disc Quota
+12) How to add data nodes to your cluster without using Cloudera Manager.
+13) How to add Disk space to Datanode which is already added to cluster. And how to format the disk before adding it to cluster.
+14) How good r u at shell scripting? Have you used shell scripting to automate any of your activities. 
+What are the activities that r automated using shell scripting in your current project? 
+15) What are the benefits of YARN compare to Hadoop-1.
+17) Difference between MR1 and MR2?
+18) Most challenges that you went through in your project.
+19) Activities performed on Cloudera Manager
+20) How you will know about the threshold, do you check manually every time. Do you know about puppet etc.,
+21) How many clusters and nodes are present in your project.
+22) You got a call when u r out of office saying there is no enough space i.e., HDFS threshold has been reached. What is the your approach to resolve this issue. 
+23) Heat beat messages, Are they sequential processing or parallel processing. 
+24) What is the volume of data you receive to your cluster every day.
+25) What is HDFS?
+26) How do you implement SSH, SCP and SFTP in Linux
+27) What are the services used for HA.
+28) Do you have experience on HBASE.
+29) Does HA happen automatically.
+
+Company: Infosys (Secound Round)      Dt: 04-April-2018
+1. what is distribution you use and how did you upgrade from 5.3 to 5.4
+2. are you upgrading in node.. how?
+3. How do you copy config files to other nodes
+4. what security system you follows, what is diff with out kerberos
+5. What is JN, HA
+6. what is usage of SNN
+7. usage of Automatic failover , how you do ? what all r other methods?
+8. How do you load data for teradata to Hadoop
+9. Are you using IMpala?
+10. what is cluster size
+11. How do you install the cloudera manager 
+12. what is iQuery
+13. You already had dev exp, going to ask question n Deve
+14. What Unix your using and how to find the OS full details.
+
+Company: Cognizant (CTS)  Dt: 04-Nov-2017
+1)how you will give access to Hue 
+2)what is rebalancing 
+3)what will be needed from user for Karbarose 
+4)Java heap issue 
+5)explain about sqoop 
+6)Expain about oozie 
+7)where log files wil be stored 
+tar -cvf
+8)what is Master and region server 
+9)What is Edge node 
+10)expalin yarn 
+11)High availability 
+12)what is the responsability of zookeeper 
+13)What needs to be done in order to run the standby node 
+14)Decommission of datanode 
+15)Cluster details 
+16)Scalability 
+17)How you will check the upgradation is successful 
+18)schedulers 
+19)what will be the steps you perform when a process got failed 
+20)recent issues you got faced 
+21)what are the recent issues you faced 
+22)Shell scripting 
+23)what will be the precations you will take in order to avoid single point of failure 
+24)what is your backup plan 
+25)how will you upgrade the cloudera manager from 5.3 to 5.4
+
+Company: EMC (Duration was 45 Mins) Dt:  04-Dec-2017
+01) Could you explain your big data experience.
+02) Could explain about your environment, how many clusters.
+03) What is the size of your cluster.
+04) How is data loaded into HIVE.
+05) What is the configuration of nodes.
+06) What do you do for map reduce performance tuning.
+07) What are the parameters and values used for tuning.
+08) What will happen, when you change those values.
+09) What else are used for tuning, other than reducer.
+10) which components are there between mapper and reducer.
+11) What are the steps to install Kerberos.
+12) How do you integrate Kerberos in Tableau.
+13) Do you have idea about SQOOP, FLUME.
+14) What type of files come into your application.
+15) Have you worked on un-structured files.
+16) What type of tables you are using in HIVE, internal or external tables.
+17) Do you have idea about HUE.
+18) Where HUE is installed.
+19) How do you give access to HUE and how Kerberos is integrated in HUE.
+20) Do you have idea about SPARK, SPLUNK.
+21) Could you explain unix scripts you have developed till now.
+22) What are the routine unix command you use.
+23) How do you check I/O operations in unix.
+24) What is the size of the container in your project.
+25) What is the architecture of your project, how does data comes.
+26) Do you have experience on Teradata.
+27) What is the difference between Teradata and Oracle.
+28) What are the utilities used in teradata.
+
+
+
+
+Company: Wipro  (Duration was15 Mins)    Dt: 20-Feb-2015
+
+1) What is your experiance in big data space.
+2) What are your day to day activities.
+3) Responsibilities you are saying should be automated by now, what is your actual work in it.
+4) Have you seen a situation, where mapreduce program is not performing well which used to execute properly before. What is your approch to resolve the issue.
+5) Do you came accrosee the issue, where sort and suffle was causing issue in mapreduce program.
+6) Have you worked on Kafka.
+7) What are the reporting toole you are using.
+8) Any experience on spark.
+9) What are the chanllenges you faced.
+10) I will inform employer, he will notify next steps
+*INTERVIEW QUESTIONS*
+*Company: Impetus     21Oct2017*
+1) What ate your day to day activities.
+2) What is the difference between root user and normal user.
+3) Is your cluster on cloud. Do you have idea about cloud.
+4) Are you racks present in any data center.
+5) What Hadoop version you are using.
+6) What is the process to add node to cluster. Do you have any standard process. Do you see physical servers.
+7) What do you do for Tableau installation and integration.
+8) What schedulers you suing in your project.
+9) What is your cluster Size.
+10) What issue you faced in your project. Do you login frequently.
+11) How jobs are handled. Do developers take care of it or you involve.
+12) Have you worked on sqoop and Oozie.
+13) What are the echo systems you have worked.
+14) Do you know about sentry.
+15) Looks like, you have worked on Cloudera Manager. What is comfort level on manual and Hortonworks.
+16) Have you done any scripting.
+
+Company: Tata Consultancy Services TCS Dt: 18-Oct-2017 (25Mins)
+1) Hi, Where are you located. Are you fine to relocate to CA.
+2) How much experience you have in big data area.
+3) Could you give me your day to day activities?
+4) What is the process to upgrade HIVE.
+5) What is the way to decommission multiple data nodes.
+6) Have you used rsync command.
+7) How do you decommission a data node.
+8) What is the process to integratemetastore for HIVE. Could you explain the process?
+9) Do you have experience on scripting. If yes, is it Unix or python.
+10) Have you worked on puppet.
+11) Have you worked on other distributions like Horton works.
+12) How do you delete files which are older than 7 days.
+13) what is the way to delete tmp files from nodes. If there are 100 nodes, do you do it manually.
+14) Have you involved in migration from CDH1 to CDH2.
+15) If there is 20TB data in CHD1, What is the way to move it to CDH2.'
+16) Have you worked on HBASE.
+17) Do you know about Nagios and Ganglia. How graphs are used.
+18) In Nagios, what are different options (conditions) to generate alerts.
+19) Have you worked on Kerberos.
+20) What is command for balancing the datanodes.
+
+
+Company: DishNET  Dt: 15-Oct-2017 (30 Mins)
+
+1) Tell me about yourself.
+2) What is meant by High availability.
+3) Does HA happen automatically.
+4) What are the services used for HA.
+5) What are the benefits of YARN compare to Hadoop-1.
+6) Have you done integration of map reduce to run HIVE.
+7) Do you have experience on HBASE.
+8) Could you explain the process of integration on Tableau.
+9) What is the process of upgrading data node.
+10) what are the schedulers used in hadoop.
+11) How do you do load balancing.
+12) when you add data node to cluster, how data will be copied to new datanode.
+13) How you can remove 5 data nodes from cluster. Can you do it all at same time.
+14) How do you give authorization to users.
+15) How do you give permissions to a file like write access to one group and read access to other group.
+16) How do you authenticate to HIVE tables for users.
+17) How do you give LDAP access to HIVE for users.
+18) Do you know about Kerberos.
+19) Have you done upgrade CDH.
+20) Do you need to bring down for CDH upgrade.
+21) Have you worked on performance tuning of HIVE queries.
+22) What type of performance tunings you have done.
+23) Do you have idea about impala.
+24) Do you know, how hadoop supports real time activity.
+25) How do you allocate resource pool.
+26) How do you maintain data in multiple disks on datanode.
+27) Will there be any performance issue, if data is in different disks on datanode.
+
+
+Company: Hexaware  Dt: 10-Aug-2018 (41 Mins)
+
+1) Tell me your day to day activities.
+2) When adding datanode, do you bring down cluster.
+3) What are the echo systems you have on your cluster.
+4) Have you involved in cluster planning.
+5) Who will take decision to add new data node.
+6) Have you involved in planning for adding datanodes.
+7) How do you do upgrades, is there any window.
+8) When you are adding datanode, what is the impact of new blocks created by running jobs.
+9) Do you have any idea about check pointing.
+10) For check pointing, do Admin need to any activity or it is automatically taken care by cloudera.
+11) Do you know about Ambari. Have you ever worked on Ambari or HortonWorks.
+12) Do developers use map reduce programming on the cluster you are working.
+13) Do you know, what type of data is coming from different systems to your cluster and what type of analysis is done on the same.
+14) Do you have scala and strom in your application.
+15) Do you use any oozie scheduler in the project.
+16) What type of unix scripting is done.
+17) whether your cluster is on any cloud.
+18) When you are adding any datanode, do you do anything with configuration files.
+19) How much experience you have on linux and scripting. How is your comfort level.
+20) Do you have idea about data warehouse.
+21) Have you worked on data visualization.
+22) Who takes care of copying data from unix to HDFS, whether there is any automation.
+23) Looks like, you joined on project which is already configured. Do you have hands-on on configuration cluster from scratch.
+24) Have you ever seen hardware of nodes in the cluster. What is the configuration.
+25) Have you used, Sqoop to pull data from different databases.
+26) What is your cluster size.
+
+
+Company: Initial Screening by Vendor for VISA Client Date: 5th-Oct-2017
+1) What are your day to day activities.
+2) How do you add datanode to the cluster.
+3) Do you have any idea about dfs.name.dir?
+4) What will happend when data node is down.
+5) How you will test, whether datanode is working or not.
+6) Do you have idea about Zoombie process.
+7) How namenode will be knowing datanode is down.
+Nagios alert, admin -report (command), cloudera manage  
+8) Heat beat, whether it is sequential processing or parallel processing.
+9) What is the volume of data you receive to the cluster.
+    40 to 50GB
+10) How do you receive data to your cluster.
+11) What is your cluster size.
+12) What is the port number of namenode.
+13) What is the port number of Job tracker.
+14) How do you install hive, pig, hbase.
+15) What is JVM?
+16) How do you do rebalancing.
+
+
+
+
+
+Company: Verizon  02-Oct-2017
+1)How do you dopaswordless SSH in hadoop.
+2) Upgrades (Have you done anytime).
+3) ClouderaManager port number.
+4) what is your cluster size.
+5) Versions
+6) Map reduce version.
+7) Daily activities.
+8) What operations, you normally use in cloudera manager.
+9) is internet connected to your nodes.
+10) Do you have different cloudera managers for dev and production.
+11) what are installation steps
+
+
+Company: HCL     22-Sep-2017
+
+1) Daily activities.
+2) versions.
+3) What is decommissioning.
+4) What is the procedure to decommission datanode.
+5) Difference between MR1 and MR2.
+6) Difference between Hadoop1 and Hadoop2.
+7) Difference between RDBMS and No-SQL.
+8) What is the use of Nagios.
+
+
+
+
+Company: Collabera     Date: 14-Mar-2018
+
+1) Provide your roles and responsibilities.
+2) What do you do for cluster management.
+3) At midnight, you got a call saying there is no enough space i.e., HDFS threshold has been reached. What is the your approach to resolve this issue.
+4) How many clusters and nodes are present in your project.
+5) How you will know about the threshold, do you check manually every time. Do you know about puppet etc.,
+6) Code was tested successfully in Dev and Test. When deployed to Productions it is failing. As an admin, how do you track the issue?
+7) If namenode is down, whole cluster will be down. What is the approach to bring it back.
+8) what is decommissioning?
+9) You have decommissioned a node, can you add it back to cluster again. What about the data present in datanode when decommissioned. 
+10) Node is having different version of software, can we add it to cluster.
+
+More Questions from Collabera Vendor:
+1) Activities performed on Cloudera Manager
+2) How to start & stop namenode services
+3) Most challenges that you went thru in your project
+4) How do you install Cloudera and namenode
+5) Background of current project
+6) If datanode is down, what will be the solution ( situation based question)
+7) More questions can be expected for Linux &Hadoop administration.
+
+SOME BIG DATA REAL TIME PRODUCTION LEVEL QUESTIONS
+1)what is the file size you’ve used?
+2)How long does it take to run your script in production cluster?
+3)what is the file size for production environment?
+4) Are you planning for anything to improve the performance?
+5)what size of file do you use for Development?
+6)what did you do to increase the performance(Hive,pig)?
+7)what is your cluster size?
+8)what are the challenges you have faced in your project? Give 2 examples?
+9)How to debug production issue?(logs, script counters, JVM)
+10)how do you select the eco system tools for your project?
+11)How many nodes you are using currently?
+12)what is the job scheduler you use in production cluster?
