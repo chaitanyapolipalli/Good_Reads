@@ -1,3 +1,10 @@
+I would let that use default which is usually 200 partitions. If it does not perform well then we need to tune it. 
+Usually catalyst optimizer of Spark will determine optimal value itself. But sometimes we may need to tune it. 
+Start with something low as I said earlier. You may divide the file size with 64MB, and use it as number of partitions. 
+For example if u have two files with 1GB of data and you are making a join operation, then set the partitions to 25 and check how it works, 
+and add 25 partitions at a time and tune. 
+
+In most of the scenarios you would not need more than 200 shuffle partitions.
 Ideally whenever you are not getting proper performance we need to check the explain output 
 of the select statement. As per my experience the following are the key things to check:
 
