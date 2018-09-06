@@ -1,0 +1,12 @@
+Ideally whenever you are not getting proper performance we need to check the explain output 
+of the select statement. As per my experience the following are the key things to check:
+
+1. What is the value set for spark.sql.shuffle.partitions? Default is 200
+2. Whether the access plan is using push down filters or not (see explain output’s Physical Plan). 
+If not you need to set spark.sql.parquet.filterPushdown and spark.sql.orc.filterPushdown to True
+3. What kind of join is being performed? Is it Nested loop, Hash Join or Sort Merge? 
+If hash Map join is used on two big tables then your query will not perform well. You need to force it to use sort merge join. 
+This can be done by making spark.sql.join.preferSortMergeJoin to True
+4. Sometimes it also helps to tune spark.sql.autoBroadcastJoinThreshold to a higher value. 
+It take a value in bytes and specifies the maximum file size to use Broadcast 
+join (similar to map side join and it is the best type of join for best performance).
