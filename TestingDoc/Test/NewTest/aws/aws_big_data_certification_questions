@@ -1,0 +1,328 @@
+1) If Kinesis Firehose experiences data delivery issues to S3, how long will it retry delivery to S3?
+a) 7 hours
+b) 7 days
+c) 24 hours
+d) 3 hours
+Answer : c
+2) You have to create a visual that depicts one or two measures for a dimension. Which one will you choose?
+a) Heat Map
+b) Tree Map
+c) Pivot Table
+d) Scatter Plot
+Answer: b
+3) You are looking for a way to reduce the amount of data stored in a Redshift cluster. How will you achieve that?
+a) Compression algorithms
+b) Encryption algorithms
+c) Decryption algorithms
+d) SPLUNK algorithms
+Answer: a
+4) How does UNLOAD automatically encrypts data files while writing the resulting file onto S3 from redshift?
+a) CSE-S3 client side encryption S3
+b) SSE-S3 server side encryption S3
+c) ASE
+d) SSH
+Answer: b
+5) What does area under curve mean that has a value 0.5?
+a) This model is accurate
+b) This model is not accurate
+c) This creates lots of confidence
+d) This creates less confidence beyond a guess
+Answer: b,d
+6) What is AUC?
+a) Average unit computation
+b) Average universal compulsion
+c) Area under curve
+d) None of the above
+Answer: c
+7) What does lower AUC mean?
+a) improves accuracy of the prediction
+c) reduces accuracy of prediction
+b) mean of all predicted values
+d) Mode of all predicted values
+Answer: b
+8) You have an auc value of 0.5. Does that mean that the guess is accurate and perfect?
+a) Yes
+b) No
+c) Partially yes
+Answer: c
+Explanation: Value of 0.5 means that the guess is accurate but not a perfect guess but rather random guess
+9) Can you make use of redshift manifest to automatically check files in S3 for data issues?
+a) Yes
+b) No
+Answer: b
+10) Can you control the encryption keys and cryptographic operations performed by the Hardware security module using cloudhsM?
+a) Yes
+b) No
+Answer: a
+11) You are in process of creating a table. Which among the following must be defined while table creation in AWS redshift. What are the required definition parameters?
+a) The Table Name
+b) RCU (Read Capacity Units)
+c) WCU (Write Capacity Units)
+d) DCU (Delete/Update Capacity Units)
+e) The table capacity number of GB
+f) Partition and Sort Keys
+Answer: a,b,c,f
+12) Can you run a EMR cluster in public subnet?
+a) Yes
+b) No
+Answer: b
+Explanation: Owing to compliance or security requirements we can run an EMR cluster in a private subnet with no public IP addresses or attached Internet Gateway
+13) Your project makes use of redshift clusters. For security purpose you create a cluster with encryption enabled and load data into it. Now, you have been asked to present a cluster without encryption for final release what can you do?
+a) Remove security keys from configuration folder
+b) Remove encryption from live redshift cluster
+c) Create a new redshift cluster without encryption, unload data onto S3 and reload onto new cluster
+Answer: c
+14) You are using on-perm HSM or cloudHSM while using security module with redshift. In addition to security what else is provided with this?
+a) High availability
+b) Scaling
+c) Replication
+d) Provisioning
+Answer: a
+15) CloudHSMis or on-perm HSM are the options that can be used while using hardware security module with Redshift. Is it true or false?
+a) True
+b) False
+Answer: a
+16) CloudHSMis the only option that can be used while using hardware security module with Redshift. Is it true or false?
+a) True
+b) False
+Answer: b
+17) You are making use of AWS key management service for encryption purpose. Will you make use of same keys or differnet keys or hybrid keys on case by case basis
+a) same keys
+b) different keys
+c) hybrid keys
+Answer: a
+Explanation : AWS Key Management Service supports symmetric encryption where same keys are used to perform encryption and decryption
+18) How is AWS key management service different than cloudHSM?
+a) Both symmetric and asymmetric encryptions are supported in cloudHSM, only symmetric encryption is supported in key management service
+b) CLoudHSM is used for security, key management service if for replication
+c) The statement is wrong. Both are same
+Answer: a
+19) Which among the following are characteristics of cloudHSM?
+a) High availability and durability
+b) Single Tenancy
+c) Usage based pricing
+d) Both symmetric and asymmetric encryption support
+e) Customer managed root of trust
+Answer: b,d,e
+20) In your hadoop ecosystem you are in shuffle phase. You want to secure the data that are in-transit between nodes within the cluster. How will you encrypt the data?
+a) Data node encrypted shuffle
+b) Hadoop encrypted shuffle
+c) HDFS encrypted shuffle
+d) All of the above
+Answer: b
+21) Your security team has made it a mandate to encrypt all data before sending it to S3 and you will have to maintain the keys. Wich encryption option will you choose?
+a) SSE-KMS
+b) SSE-S3
+c) CSE-Custom
+d) CSE-KMS
+Answer : c
+22) Is UPSERT supported in redshift?
+a) Yes
+b) No
+Answer: b
+23) Is single-line insert fast and most efficient way to load data into redshift?
+a) Yes
+b) No
+Answer : b
+24) Which command is the most efficient and fastest way to load data into Redshift?
+a) Copy command
+b) UPSERT
+c) Update
+d) Insert
+Answer : a
+25) How many concurrent queries can you run on a Redshift cluster?
+a) 50
+b) 100
+c) 150
+d) 500
+Answer : a
+26) Will primary and foreign key integrity constraints in a redshift project helps with query optimization?
+a) Yes. They provide information to optimizer to come up with optimal query plan
+b) No . They degrade performance
+Answer : a
+27) Is primary key and foreign key relationship definition mandatory while designing Redshift?
+a) Yes
+b) No
+Answer : b
+28) REdshift the AWS managed service is used for OLAP and BI. Are the queries used easy or complex queries?
+a) Simple queries
+b) Complex queries
+c) Moderate queries
+Answer : b
+29) You are looking to choose a managed service in AWS that is specifically designed for online analytic processing and business intelligence. What will be your choice?
+a) Redshift
+b) Oracle 12c
+c) amazon Aurora
+d) Dynamodb
+Answer : a
+30) Can Kinesis streams be integrated with Redshift using the COPY command?
+a) Yes
+b) No
+Answer : b
+31) Will Machine Learning integrate directly with Redshift using the COPY command?
+a) Yes
+b) No
+c) On case by case basis
+Answer : b
+32) Will Data Pipeline integrate directly with Redshift using the COPY command?
+a) Yes
+b) No
+Answer : a
+33) Which AWS services directly integrate with Redshift using the COPY command
+a) Amazon Aurora
+b) S3
+c) DynamoDB
+d) EC2 instances
+e) EMR
+Answer : b,c,d,e
+34) Are columnar databases like redshift ideal for small amount of data?
+a) Yes
+b) No
+Answer : b
+Explanation : They are ideal for OLAP that does process heavy data loads called data warehouses
+35) Which databases are best for online analytical processing applications OLAP?
+a) Normalized RDBMS databases
+b) NoSQL database
+c) Column based database like redshift
+d) Cloud databases
+Answer : c
+36) What is determined using F1 score?
+a) Quality of the model
+b) Accuracy of the input data
+c) The compute ratio of Machine Learning overhead required to complete the analysis
+d) Model types
+Answer : a
+Explanatin : F1 score can range from 0 to 1. If 1 is f1 score the model is of best quality
+37) Which JavaScript library lets you produce dynamic, interactive data visualizations in web browsers?
+a) Node.js
+b) D3.js
+c) JSON
+d) BSON
+Answer : b
+38) How many transactions are supported per second for reads by each shard?
+a) 500 transactions per second for reads
+b) 5 transactions per second for reads
+c) 5000 transactions per second for reads
+d) 50 transactions per second for reads
+Answer : b
+39) Where does Amazon Redshift automatically and continuously backs up new data to ?
+a) Amazon redshift datafiles
+b) Amazon glacier
+c) Amazon S3
+d) EBS
+Answer : c
+40) Which one acts as an intermediary between record processing logic and Kinesis Streams?
+a) JCL
+b) KCL
+c) BPL
+d) BCL
+Answer : b
+41) What to do when Amazon Kinesis Streams application receives provisioned-throughput exceptions?
+a) increase the provisioned throughput for the DynamoDB table
+b) increase the provisioned ram for the DynamoDB table
+c) increase the provisioned cpu for the DynamoDB table
+d) increase the provisioned storage for the DynamoDB table
+Answer : a
+42) How many records are supported per second for write in a shard?
+a) 1000 records per second for writes
+b) 10000 records per second for writes
+c) 100 records per second for writes
+d) 100000 records per second for writes
+Answer : a
+43) You own an amazon kinesis streams application that operates on a stream that is composed of many shards. Will default provisioned throughput suffice?
+a) Yes
+b) No
+Answer : b
+44) You have an Amazon Kinesis Streams application does frequent checkpointing . Will default provisioned throughput suffice ?
+a) Yes
+b) No
+answer : b
+45) What is the default provisioned throughput in a table created with KCL?
+a) 10 reads per second and 10 writes per second
+b) 100 reads per second and 10 writes per second
+c) 10 reads per second and 1000 writes per second
+Answer : a
+46) You have configured amazon kinesis firehose streams to deliver data onto redshift cluster. After sometime in amazon s3 buckets you see manifest file in an errors folder. What could have caused this?
+a) Data delivery from Kinesis Firehose to your Redshift cluster has failed and retry did not succeed
+b) Data delivery from Kinesis Firehose to your Redshift cluster has failed and retry did succeed
+c) This is a warnign alerting user to add additional resources
+d) Buffer size in kinesis firehose needs to be manually increased
+Answer : a
+47) Is it true that if amazon kinesis firehose fails to deliver to destination owing to the fact that buffer size is insufficient manual intervention is mandate to fix the issue?
+a) Yes
+b) No
+Answer : b
+48) What does amazon kinesis firehose do when data delivery to the destination is falling behind data ingestion into the delivery stream?
+a) system is halted
+b) firehose will wait until buffer size is increased manually
+c) Amazon Kinesis Firehose raises the buffer size automatically to catch up and make sure that all data is delivered to the destination
+d) none of the above
+Answer : c
+49) Your amazon kinesis firehose data delivery onto amazon s3 bucket fails. Automated retry has been happening for 1 day every 5 seconds. The issue is not found to have been resolved. What happens once this goes past 24 hours?
+a) retry continues
+b) retry does not happen and data is discarded
+c) s3 initiates a trigger to lambda
+d) All of the above
+Answer : b
+50) Amazon kinesis firehose has been cosntantly delivering data onto amazon S3 buckets. Kinesis firehose retires every five seconds. Is there a maximum duration until which kinesis keeps on retrying to deliver data onto S3 bucket?
+a) 24 hours
+b) 48 hours
+c) 72 hours
+d) 12 hours
+Answer : a,b
+51) Amazon kinesis firehose is delivering data to S3 buckets. All of sudden data delivery to amazon S3 bucket fails. In what interval does a retry happen from amazon kinesis firehose?
+a) 50 seconds
+b) 500 seconds
+c) 5000 seconds
+d) 5 seconds
+Answer : d
+52) How is data pipeline integrated with on-premise servers?
+a) Task runner package
+b) there is no integration
+c) amazon kinesis firehose
+d) all the above
+Answer : a
+53) Is it true that Data Pipeline does not integrate with on-premise servers?
+a) True
+b) False
+Answer : b
+54) Kinesis Firehose can capture, transform, and load streaming data into which of the amazon services?
+a) Amazon S3
+b) Amazon Kinesis Analytics
+c) Amazon Redshift
+d) Amazon Elasticsearch Service
+e) None of the above
+Answer : a,b,c,d
+55) Which AWS service does a Kinesis Firehose does not load streaming data into?
+a) S3
+b) Redshift
+c) DynamoDB
+d) All of the above
+Answer : c
+56) You perform write to a table that does contain local secondary indexes as part of update statement. Does this consume write capacity units from base table?
+a) Yes
+b) No
+Answer : a
+Explanation : Yes because its local secondary indexes are also updated
+57) You are working on a project wherein EMR makes use of EMRFS. What types of amazon S3 encryptions are supported?
+a) server-side and client-side encryption
+b) server-side encryption
+c) client-side encryption
+d) EMR encryption
+Answer : a
+58) Do you know which among the following is an implementation of HDFS which allows clusters to store data on Amazon S3?
+a) HDFS
+b) EMRFS
+c) Both EMRFS and HDFS
+d) NFS
+Answer : b
+59) Is EMRFS installed as a component with release in AWS EMR?
+a) Yes
+b) No
+Answer : a
+60) EMR cluster is connected to the private subnet. What needs to be done for this to interact with your local network that is connected to VPC?
+a) VPC
+b) VPN
+c) Directconnect
+d) Dishconenct
+Answer : b,c
