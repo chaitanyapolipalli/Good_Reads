@@ -49,6 +49,8 @@ How to handle xml data?
 
 How do u handle nulls from RDBMS?
 Nulls are propertiery to databases, when copying data from rdbms to hdfs (a file system) we cant leave nulls as is, we need to handle them gracefully by using sqoop commands (when question is about sqoop way of handling nulls) to replace nulls by blank values or some characters. 
+how to to read file and query 4 tables from different types of databases using spark
+
 
 
 
