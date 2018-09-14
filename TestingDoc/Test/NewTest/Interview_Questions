@@ -54,7 +54,7 @@ What's a sparse vector and why do we use it
 how do you minimize data transfer when working with a spark cluster? 
 https://www.youtube.com/watch?v=eN2INeEcGJY&list=PL9sbKmQTkW05mXqnq1vrrT8pCsEa53std
 whats the use case for a sink
-what is data lake?
+what is data lake? https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/
 
 
 
