@@ -59,6 +59,6 @@ what is data lake? https://aws.amazon.com/big-data/datalakes-and-analytics/what-
 What is mapPartitions,foreachPartitions?
 What is count,countApprox,countByApproxDistinctcountByValue,countByValueApprox?
 What are types of storage levels?
-
+Is it necessary to import packages when starting spark-shell everytime?  https://stackoverflow.com/questions/27717379/spark-how-to-run-spark-file-from-spark-shell
 
 
