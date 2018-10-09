@@ -61,4 +61,4 @@ What is count,countApprox,countByApproxDistinctcountByValue,countByValueApprox?
 What are types of storage levels?
 Is it necessary to import packages when starting spark-shell everytime?  https://stackoverflow.com/questions/27717379/spark-how-to-run-spark-file-from-spark-shell
 we have a spark job which get input data(e.g 3 fields)  transforms it and save the output in a file. If schema of the input data change ( in terms of number of fields, 5 fields) then how will you make new data compatible to existing saved file?
-
+How do you join two 1 tb each tables in spark? Please explain strategy.
