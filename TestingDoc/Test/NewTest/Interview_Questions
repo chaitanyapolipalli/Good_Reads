@@ -62,3 +62,12 @@ What are types of storage levels?
 Is it necessary to import packages when starting spark-shell everytime?  https://stackoverflow.com/questions/27717379/spark-how-to-run-spark-file-from-spark-shell
 we have a spark job which get input data(e.g 3 fields)  transforms it and save the output in a file. If schema of the input data change ( in terms of number of fields, 5 fields) then how will you make new data compatible to existing saved file?
 How do you join two 1 tb each tables in spark? Please explain strategy.
+
+1) In hive, what is the syntax you use to read an encrypted logon file.
+2) In sqoop, what is the syntax you use to import all tables except for few tables 
+3) What is the difference between dataset and data frames in Spark.
+4) What are the RDDs you have used so far in Spark.
+5) What is the max size of the table you have handled.
+6) Serde operations in Hive.
+
+
