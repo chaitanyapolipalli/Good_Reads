@@ -69,5 +69,5 @@ How do you join two 1 tb each tables in spark? Please explain strategy.
 4) What are the RDDs you have used so far in Spark.
 5) What is the max size of the table you have handled.
 6) Serde operations in Hive.
-
+How to read environmental variables from spark-shell ??
 
