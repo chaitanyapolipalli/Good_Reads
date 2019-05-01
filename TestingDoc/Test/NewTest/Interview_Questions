@@ -63,6 +63,31 @@ Is it necessary to import packages when starting spark-shell everytime?  https:/
 we have a spark job which get input data(e.g 3 fields)  transforms it and save the output in a file. If schema of the input data change ( in terms of number of fields, 5 fields) then how will you make new data compatible to existing saved file?
 How do you join two 1 tb each tables in spark? Please explain strategy.
 
+1) what is the file size you’ve used? Reason Behind your answer.
+
+2) How long does it take to run your script in production cluster? How did you optimized the timings. Challenges you have faced.
+
+3) what was the file size for production environment?
+
+4) Are you planning for anything to improve the performance?
+
+5) what size of file do you use for Development?
+
+6) what did you do to increase the performance(Hive,pig)?
+
+7) what is your cluster size? Reason Behind your answer.
+
+8) what are the challenges you have faced in your project? Give 2 examples?
+
+9) How to debug production issue?(logs, script counters, JVM)
+
+10) how do you select the eco system tools for your project?
+
+11) How many nodes you are using currently?
+
+12) what is the job scheduler you use in production cluster?
+
+
 1) In hive, what is the syntax you use to read an encrypted logon file.
 2) In sqoop, what is the syntax you use to import all tables except for few tables 
 3) What is the difference between dataset and data frames in Spark.
