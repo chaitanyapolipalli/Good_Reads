@@ -1,7 +1,6 @@
 
 Imp Questions:
 --------------
-
 Why use orc file format and its advantages?
 How to troubleshoot issues like "if the query result is not returned after specific time how do u start ur debugging process" or "one query is running everyday and it failed running one day what might be the issue"
 After you subscribe to kafka topic how do u process received messages. (how to read msgs from kafka topic)
