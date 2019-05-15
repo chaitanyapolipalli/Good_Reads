@@ -62,6 +62,10 @@ Is it necessary to import packages when starting spark-shell everytime?  https:/
 we have a spark job which get input data(e.g 3 fields)  transforms it and save the output in a file. If schema of the input data change ( in terms of number of fields, 5 fields) then how will you make new data compatible to existing saved file?
 How do you join two 1 tb each tables in spark? Please explain strategy.
 
+1. Which are the joins supported in spark but not in hive. 
+
+2. During reduceByKey and groupByKey operations performing in RDD/DF, keys are scattered in different partition, so what is the techniques to bring all similar keys in one partitions.
+
 1) what is the file size you’ve used? Reason Behind your answer.
 
 2) How long does it take to run your script in production cluster? How did you optimized the timings. Challenges you have faced.
